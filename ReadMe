@@ -1,0 +1,7 @@
+The Product Inventory Management System is a web application designed to help
+businesses manage their product inventories. This system allows users to view, add, edit,
+and delete products, as well as search for products based on specific criteria. The system is
+implemented using Angular for the frontend and integrates with a backend API for data
+storage and retrieval. Additionally, the application ensures secure user authentication for
+accessing inventory features and includes a simple, user-friendly interface for seamless
+navigation.

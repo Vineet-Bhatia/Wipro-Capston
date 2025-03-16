@@ -1,0 +1,15 @@
+<app-search-filter (search)="onSearch($event)"></app-search-filter>
+<h2>Product List</h2>
+<div class="product-list">
+    <ul>
+        <li *ngFor="let product of filteredProducts">
+            {{ product.name }}
+            <div>
+                <button class="view-btn" (click)="viewProduct(product.id)">View</button>
+                <button class="edit-btn" (click)="editProduct(product.id)">Edit</button>
+                <button class="delete-btn" (click)="deleteProduct(product.id)">Delete</button>
+            </div>
+        </li>
+    </ul>
+    <button class="add-product-btn" routerLink="/inventory/add-product">Add Product</button>
+</div>
