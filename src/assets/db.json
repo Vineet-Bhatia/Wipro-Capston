@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "location": "New York",
+      "mobileNumber": "1234567890"
+    }
+  ],
+  "products": [
+    {
+      "id": "102",
+      "name": "Smartphone",
+      "description": "Latest smartphone with 5G",
+      "manufacturer": "Mobile Inc",
+      "price": 80,
+      "quantity": 25
+    },
+    {
+      "name": "Laptop",
+      "description": "A powerful gaming laptop",
+      "manufacturer": "Tech Corp",
+      "price": 120,
+      "quantity": 45,
+      "id": "1741967377222"
+    }
+  ]
+}
